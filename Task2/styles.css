@@ -1,0 +1,51 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.stopwatch {
+    text-align: center;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 2px solid #8a2be2; /* Violet border for the stopwatch */
+}
+
+#display {
+    font-size: 2rem;
+    color: #8a2be2; /* Violet text color */
+    margin-bottom: 20px;
+}
+
+.controls button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: #8a2be2; /* Violet background color for buttons */
+    color: #ffffff; /* White text color for buttons */
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.controls button:hover {
+    background-color: #6a0dad; /* Darker violet for hover effect */
+}
+
+#laps {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.lap-time {
+    border-bottom: 1px solid #ddd;
+    padding: 5px 0;
+    color: #6a0dad; /* Darker violet color for lap times */
+}
